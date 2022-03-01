@@ -1,0 +1,366 @@
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Car Dataset with 8144 instances for train phase
+Car Dataset with 8144 instances for train phase
+Car Dataset with 8144 instances for train phase
+Car Dataset with 8144 instances for train phase
+Car Dataset with 8041 instances for val phase
+Car Dataset with 8041 instances for val phase
+Car Dataset with 8041 instances for val phase
+Car Dataset with 8041 instances for val phase
+==> using resnet with stride= 16
+==> using resnet with stride= 16
+==> using resnet with stride= 16
+==> using resnet with stride= 16
+ResNet: All params loaded
+ResNet: All params loaded
+ResNet: All params loaded
+ResNet: All params loaded
+using apex synced BN
+using apex synced BN
+begin with 0.001 learning rate
+using apex synced BN
+using apex synced BN
+begin with 0.001 learning rate
+Selected optimization level O0:  Pure FP32 training.
+
+Defaults for this optimization level are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+Processing user overrides (additional kwargs that are not None)...
+After processing overrides, optimization options are:
+enabled                : True
+opt_level              : O0
+cast_model_type        : torch.float32
+patch_torch_functions  : False
+keep_batchnorm_fp32    : None
+master_weights         : False
+loss_scale             : 1.0
+begin with 0.001 learning rate
+begin with 0.001 learning rate
+current lr = 0.001
+Val Loss 1.8753, Val Acc (53.49, 80.11), Val Aux Acc (67.53, 91.74), Best 67.53
+current lr = 0.0009487814895378833
+Val Loss 0.7003, Val Acc (80.46, 96.26), Val Aux Acc (86.44, 98.21), Best 86.44
+current lr = 0.0009000931526240783
+Val Loss 0.5895, Val Acc (85.28, 97.95), Val Aux Acc (90.09, 98.94), Best 90.09
+current lr = 0.000853903340584095
+Val Loss 0.3904, Val Acc (89.80, 98.79), Val Aux Acc (91.94, 99.26), Best 91.94
+current lr = 0.0008100838373616704
+Val Loss 0.3410, Val Acc (91.16, 99.14), Val Aux Acc (93.39, 99.31), Best 93.39
+current lr = 0.0007685130065256856
+Val Loss 0.3158, Val Acc (91.53, 99.25), Val Aux Acc (93.41, 99.31), Best 93.41
+current lr = 0.0007290754536255034
+Val Loss 0.2939, Val Acc (92.80, 99.24), Val Aux Acc (93.85, 99.40), Best 93.85
+current lr = 0.000691661705873117
+Val Loss 0.2624, Val Acc (92.91, 99.40), Val Aux Acc (94.04, 99.47), Best 94.04
+current lr = 0.0006561679082629532
+Val Loss 0.2684, Val Acc (92.85, 99.36), Val Aux Acc (94.15, 99.42), Best 94.15
+current lr = 0.0006224955352858054
+Val Loss 0.2572, Val Acc (93.39, 99.40), Val Aux Acc (94.35, 99.49), Best 94.35
+current lr = 0.0005905511174366578
+Val Loss 0.2376, Val Acc (93.76, 99.40), Val Aux Acc (94.42, 99.45), Best 94.42
+current lr = 0.0005602459817572249
+Val Loss 0.2313, Val Acc (93.86, 99.54), Val Aux Acc (94.55, 99.53), Best 94.55
+current lr = 0.0005314960056929921
+Val Loss 0.2502, Val Acc (93.58, 99.41), Val Aux Acc (94.34, 99.44), Best 94.55
+current lr = 0.0005042213835815024
+Val Loss 0.2317, Val Acc (94.11, 99.41), Val Aux Acc (94.60, 99.54), Best 94.60
+current lr = 0.0004783464051236929
+Val Loss 0.2213, Val Acc (94.10, 99.46), Val Aux Acc (94.34, 99.45), Best 94.60
+current lr = 0.00045379924522335216
+Val Loss 0.2264, Val Acc (94.05, 99.44), Val Aux Acc (94.33, 99.47), Best 94.60
+current lr = 0.0004305117646113236
+Val Loss 0.2171, Val Acc (94.17, 99.44), Val Aux Acc (94.80, 99.50), Best 94.80
+current lr = 0.00040841932070101694
+Val Loss 0.2186, Val Acc (94.14, 99.44), Val Aux Acc (94.69, 99.53), Best 94.80
+current lr = 0.00038746058815019126
+Val Loss 0.2177, Val Acc (94.39, 99.51), Val Aux Acc (94.61, 99.47), Best 94.80
+current lr = 0.00036757738863091527
+Val Loss 0.2081, Val Acc (94.59, 99.49), Val Aux Acc (94.69, 99.50), Best 94.80
+current lr = 0.0003487145293351721
+Val Loss 0.2148, Val Acc (94.53, 99.53), Val Aux Acc (94.81, 99.51), Best 94.81
+current lr = 0.00033081964976782374
+Val Loss 0.2149, Val Acc (94.26, 99.45), Val Aux Acc (94.58, 99.50), Best 94.81
+current lr = 0.0003138430764016549
+Val Loss 0.2067, Val Acc (94.50, 99.56), Val Aux Acc (94.81, 99.56), Best 94.81
+current lr = 0.0002977376847910414
+Val Loss 0.2155, Val Acc (94.29, 99.51), Val Aux Acc (94.62, 99.49), Best 94.81
+current lr = 0.00028245876876148944
+Val Loss 0.2147, Val Acc (94.49, 99.50), Val Aux Acc (94.75, 99.54), Best 94.81
+current lr = 0.0002679639163119372
+Val Loss 0.2058, Val Acc (94.88, 99.56), Val Aux Acc (94.89, 99.56), Best 94.89
+current lr = 0.0002542128918853405
+Val Loss 0.2085, Val Acc (94.64, 99.58), Val Aux Acc (94.89, 99.55), Best 94.89
+current lr = 0.00024116752468074352
+Val Loss 0.2044, Val Acc (94.83, 99.53), Val Aux Acc (94.86, 99.51), Best 94.89
+current lr = 0.00022879160269680647
+Val Loss 0.2020, Val Acc (95.03, 99.54), Val Aux Acc (95.04, 99.55), Best 95.04
+current lr = 0.00021705077221266918
+Val Loss 0.2043, Val Acc (94.81, 99.58), Val Aux Acc (94.88, 99.56), Best 95.04
+current lr = 0.00020591244242712582
+Val Loss 0.2022, Val Acc (94.84, 99.55), Val Aux Acc (95.11, 99.55), Best 95.11
+current lr = 0.00019534569499140224
+Val Loss 0.2021, Val Acc (94.75, 99.55), Val Aux Acc (94.88, 99.54), Best 95.11
+current lr = 0.00018532119818441323
+Val Loss 0.2011, Val Acc (94.96, 99.61), Val Aux Acc (95.10, 99.58), Best 95.11
+current lr = 0.00017581112549226206
+Val Loss 0.2003, Val Acc (94.84, 99.59), Val Aux Acc (94.84, 99.56), Best 95.11
+current lr = 0.00016678907836597192
+Val Loss 0.1978, Val Acc (94.89, 99.56), Val Aux Acc (95.00, 99.51), Best 95.11
+current lr = 0.00015823001294303584
+Val Loss 0.2049, Val Acc (94.66, 99.56), Val Aux Acc (94.91, 99.55), Best 95.11
+current lr = 0.00015011017052937473
+Val Loss 0.2003, Val Acc (95.04, 99.58), Val Aux Acc (95.05, 99.59), Best 95.11
+current lr = 0.00014240701164873227
+Val Loss 0.2008, Val Acc (94.91, 99.55), Val Aux Acc (94.91, 99.55), Best 95.11
+current lr = 0.00013509915347643725
+Val Loss 0.1997, Val Acc (94.76, 99.60), Val Aux Acc (94.88, 99.56), Best 95.11
+current lr = 0.00012816631048385903
+Val Loss 0.2015, Val Acc (94.80, 99.51), Val Aux Acc (94.91, 99.51), Best 95.11
+current lr = 0.00012158923812879353
+Val Loss 0.1986, Val Acc (94.91, 99.53), Val Aux Acc (94.96, 99.54), Best 95.11
+current lr = 0.00011534967943547314
+Val Loss 0.1999, Val Acc (94.92, 99.56), Val Aux Acc (95.10, 99.51), Best 95.11
+current lr = 0.00010943031431591419
+Val Loss 0.2021, Val Acc (94.94, 99.58), Val Aux Acc (94.89, 99.55), Best 95.11
+current lr = 0.00010381471149192582
+Val Loss 0.1996, Val Acc (94.86, 99.54), Val Aux Acc (94.85, 99.54), Best 95.11
+current lr = 9.848728288432277e-05
+Val Loss 0.1980, Val Acc (94.95, 99.60), Val Aux Acc (95.05, 99.60), Best 95.11
+current lr = 9.343324034273325e-05
+Val Loss 0.1985, Val Acc (95.19, 99.54), Val Aux Acc (95.11, 99.55), Best 95.19
+current lr = 8.86385545958905e-05
+Val Loss 0.2011, Val Acc (94.99, 99.55), Val Aux Acc (95.00, 99.50), Best 95.19
+current lr = 8.408991630845992e-05
+Val Loss 0.1989, Val Acc (95.03, 99.55), Val Aux Acc (95.03, 99.53), Best 95.19
+current lr = 7.977469913630145e-05
+Val Loss 0.1978, Val Acc (94.95, 99.56), Val Aux Acc (95.03, 99.56), Best 95.19
+current lr = 7.568092467761393e-05
+Val Loss 0.1993, Val Acc (94.97, 99.53), Val Aux Acc (95.01, 99.53), Best 95.19
+current lr = 7.17972292226713e-05
+Val Loss 0.1977, Val Acc (95.16, 99.56), Val Aux Acc (95.12, 99.54), Best 95.19
+current lr = 6.811283220985253e-05
+Val Loss 0.1963, Val Acc (95.12, 99.55), Val Aux Acc (95.16, 99.55), Best 95.19
+current lr = 6.461750630040418e-05
+Val Loss 0.1969, Val Acc (95.17, 99.54), Val Aux Acc (95.11, 99.56), Best 95.19
+current lr = 6.13015489888673e-05
+Val Loss 0.1968, Val Acc (95.14, 99.55), Val Aux Acc (95.24, 99.54), Best 95.24
+current lr = 5.815575567036376e-05
+Val Loss 0.1949, Val Acc (95.15, 99.59), Val Aux Acc (95.19, 99.55), Best 95.24
+current lr = 5.517139408998056e-05
+Val Loss 0.1961, Val Acc (95.06, 99.58), Val Aux Acc (95.03, 99.55), Best 95.24
+current lr = 5.2340180103327384e-05
+Val Loss 0.1967, Val Acc (95.21, 99.54), Val Aux Acc (95.19, 99.51), Best 95.24
+current lr = 4.965425468098251e-05
+Val Loss 0.1989, Val Acc (95.17, 99.60), Val Aux Acc (95.08, 99.58), Best 95.24
+current lr = 4.7106162092994645e-05
+Val Loss 0.1983, Val Acc (95.08, 99.62), Val Aux Acc (95.00, 99.60), Best 95.24
+current lr = 4.468882921288426e-05
+Val Loss 0.1978, Val Acc (95.24, 99.59), Val Aux Acc (95.25, 99.59), Best 95.25
+current lr = 4.239554588369519e-05
+Val Loss 0.1975, Val Acc (95.04, 99.55), Val Aux Acc (95.05, 99.56), Best 95.25
+current lr = 4.021994629159583e-05
+Val Loss 0.1986, Val Acc (95.11, 99.59), Val Aux Acc (95.05, 99.58), Best 95.25
+current lr = 3.815599129532567e-05
+Val Loss 0.1976, Val Acc (95.09, 99.59), Val Aux Acc (95.10, 99.60), Best 95.25
+current lr = 3.619795166243625e-05
+Val Loss 0.1965, Val Acc (95.20, 99.60), Val Aux Acc (95.25, 99.59), Best 95.25
+current lr = 3.43403921657931e-05
+Val Loss 0.1968, Val Acc (95.17, 99.56), Val Aux Acc (95.20, 99.54), Best 95.25
+current lr = 3.2578156496192624e-05
+Val Loss 0.1968, Val Acc (95.26, 99.58), Val Aux Acc (95.29, 99.59), Best 95.29
+current lr = 3.090635294921379e-05
+Val Loss 0.1975, Val Acc (95.14, 99.56), Val Aux Acc (95.10, 99.55), Best 95.29
+current lr = 2.9320340846573365e-05
+Val Loss 0.1987, Val Acc (95.09, 99.60), Val Aux Acc (95.14, 99.58), Best 95.29
+current lr = 2.781571765429241e-05
+Val Loss 0.1959, Val Acc (95.17, 99.60), Val Aux Acc (95.19, 99.59), Best 95.29
+current lr = 2.638830676191603e-05
+Val Loss 0.1979, Val Acc (95.28, 99.58), Val Aux Acc (95.15, 99.55), Best 95.29
+current lr = 2.5034145888863172e-05
+Val Loss 0.1978, Val Acc (95.20, 99.61), Val Aux Acc (95.16, 99.55), Best 95.29
+current lr = 2.3749476085724428e-05
+Val Loss 0.1992, Val Acc (95.12, 99.56), Val Aux Acc (95.21, 99.51), Best 95.29
+current lr = 2.2530731299976856e-05
+Val Loss 0.1993, Val Acc (95.16, 99.59), Val Aux Acc (95.17, 99.58), Best 95.29
+current lr = 2.1374528477151986e-05
+Val Loss 0.1998, Val Acc (94.99, 99.59), Val Aux Acc (95.01, 99.60), Best 95.29
+current lr = 2.027765816997917e-05
+Val Loss 0.2017, Val Acc (94.99, 99.56), Val Aux Acc (95.00, 99.54), Best 95.29
+current lr = 1.9237075629436787e-05
+Val Loss 0.2005, Val Acc (95.10, 99.60), Val Aux Acc (95.06, 99.58), Best 95.29
+current lr = 1.8249892352981253e-05
+Val Loss 0.2009, Val Acc (95.14, 99.60), Val Aux Acc (95.15, 99.55), Best 95.29
+current lr = 1.7313368066493108e-05
+Val Loss 0.2009, Val Acc (94.99, 99.53), Val Aux Acc (95.04, 99.55), Best 95.29
+current lr = 1.642490311768313e-05
+Val Loss 0.2011, Val Acc (95.12, 99.51), Val Aux Acc (95.12, 99.50), Best 95.29
+current lr = 1.5582031259843798e-05
+Val Loss 0.1988, Val Acc (95.05, 99.56), Val Aux Acc (95.06, 99.53), Best 95.29
+current lr = 1.4782412805914816e-05
+Val Loss 0.1991, Val Acc (95.14, 99.59), Val Aux Acc (95.05, 99.59), Best 95.29
+current lr = 1.4023828133859418e-05
+Val Loss 0.1980, Val Acc (95.26, 99.61), Val Aux Acc (95.22, 99.56), Best 95.29
+current lr = 1.3304171525323335e-05
+Val Loss 0.2000, Val Acc (95.11, 99.58), Val Aux Acc (95.10, 99.51), Best 95.29
+current lr = 1.2621445320473476e-05
+Val Loss 0.1981, Val Acc (95.20, 99.61), Val Aux Acc (95.25, 99.58), Best 95.29
+current lr = 1.1973754372791002e-05
+Val Loss 0.1982, Val Acc (95.16, 99.59), Val Aux Acc (95.20, 99.58), Best 95.29
+current lr = 1.135930078842613e-05
+Val Loss 0.2008, Val Acc (95.08, 99.61), Val Aux Acc (94.99, 99.58), Best 95.29
+current lr = 1.0776378935511902e-05
+Val Loss 0.1989, Val Acc (95.12, 99.58), Val Aux Acc (95.08, 99.59), Best 95.29
+current lr = 1.0223370709583516e-05
+Val Loss 0.1989, Val Acc (95.09, 99.55), Val Aux Acc (95.15, 99.56), Best 95.29
+current lr = 9.69874104196071e-06
+Val Loss 0.2005, Val Acc (95.05, 99.59), Val Aux Acc (95.16, 99.54), Best 95.29
+current lr = 9.201033638625165e-06
+Val Loss 0.1991, Val Acc (95.10, 99.58), Val Aux Acc (95.05, 99.58), Best 95.29
+current lr = 8.72886693776464e-06
+Val Loss 0.1988, Val Acc (95.31, 99.56), Val Aux Acc (95.19, 99.55), Best 95.31
+current lr = 8.280930274762649e-06
+Val Loss 0.1995, Val Acc (95.14, 99.58), Val Aux Acc (95.03, 99.55), Best 95.31
+current lr = 7.855980243988177e-06
+Val Loss 0.1993, Val Acc (95.09, 99.58), Val Aux Acc (95.08, 99.56), Best 95.31
+current lr = 7.452837247286384e-06
+Val Loss 0.1977, Val Acc (95.12, 99.59), Val Aux Acc (95.12, 99.58), Best 95.31
+current lr = 7.07038221958936e-06
+Val Loss 0.1987, Val Acc (95.11, 99.58), Val Aux Acc (95.10, 99.56), Best 95.31
+current lr = 6.707553522557746e-06
+Val Loss 0.2000, Val Acc (95.11, 99.58), Val Aux Acc (95.16, 99.51), Best 95.31
+current lr = 6.3633439976304246e-06
+Val Loss 0.1994, Val Acc (95.01, 99.56), Val Aux Acc (95.06, 99.56), Best 95.31
+current lr = 6.036798170301972e-06
+Val Loss 0.1984, Val Acc (95.11, 99.61), Val Aux Acc (95.12, 99.58), Best 95.31
+current lr = 5.727009597867382e-06
+Val Loss 0.1967, Val Acc (95.17, 99.60), Val Aux Acc (95.21, 99.59), Best 95.31
+current lr = 5.4331183532717744e-06
+Val Loss 0.1992, Val Acc (95.06, 99.60), Val Aux Acc (95.14, 99.60), Best 95.31
+current lr = 5.154308638080644e-06
+Val Loss 0.1991, Val Acc (95.17, 99.61), Val Aux Acc (95.12, 99.58), Best 95.31
+current lr = 4.889806517944597e-06
+Val Loss 0.1982, Val Acc (95.26, 99.60), Val Aux Acc (95.21, 99.56), Best 95.31
+current lr = 4.638877774272579e-06
+Val Loss 0.1976, Val Acc (95.20, 99.59), Val Aux Acc (95.19, 99.55), Best 95.31
+current lr = 4.400825866150137e-06
+Val Loss 0.2004, Val Acc (95.17, 99.54), Val Aux Acc (95.10, 99.54), Best 95.31
+current lr = 4.1749899968453215e-06
+Val Loss 0.1980, Val Acc (95.12, 99.51), Val Aux Acc (95.19, 99.50), Best 95.31
+current lr = 3.960743279535123e-06
+Val Loss 0.2000, Val Acc (94.97, 99.56), Val Aux Acc (95.05, 99.56), Best 95.31
+current lr = 3.7574909971607896e-06
+Val Loss 0.1987, Val Acc (95.17, 99.56), Val Aux Acc (95.22, 99.53), Best 95.31
+current lr = 3.5646689515816114e-06
+Val Loss 0.1968, Val Acc (95.19, 99.58), Val Aux Acc (95.15, 99.54), Best 95.31
+current lr = 3.3817418974447105e-06
+Val Loss 0.1974, Val Acc (95.15, 99.61), Val Aux Acc (95.11, 99.59), Best 95.31
+current lr = 3.2082020564234503e-06
+Val Loss 0.1974, Val Acc (95.15, 99.58), Val Aux Acc (95.14, 99.54), Best 95.31
+current lr = 3.04356770770024e-06
+Val Loss 0.1999, Val Acc (95.03, 99.55), Val Aux Acc (95.05, 99.51), Best 95.31
+current lr = 2.8873818507811055e-06
+Val Loss 0.1980, Val Acc (95.08, 99.58), Val Aux Acc (95.04, 99.54), Best 95.31
+current lr = 2.7392109369302156e-06
+Val Loss 0.1993, Val Acc (95.16, 99.54), Val Aux Acc (95.10, 99.53), Best 95.31
+current lr = 2.598643665702995e-06
+Val Loss 0.1986, Val Acc (95.14, 99.60), Val Aux Acc (95.12, 99.54), Best 95.31
+current lr = 2.4652898432371942e-06
+Val Loss 0.1975, Val Acc (95.16, 99.60), Val Aux Acc (95.10, 99.60), Best 95.31
+current lr = 2.3387792991326957e-06
+Val Loss 0.1985, Val Acc (95.08, 99.59), Val Aux Acc (95.06, 99.60), Best 95.31
+current lr = 2.218760858913475e-06
+Val Loss 0.1982, Val Acc (95.09, 99.59), Val Aux Acc (95.05, 99.55), Best 95.31
+current lr = 2.104901369219426e-06
+Val Loss 0.1970, Val Acc (95.15, 99.56), Val Aux Acc (95.14, 99.54), Best 95.31
+current lr = 1.996884773022127e-06
+Val Loss 0.1999, Val Acc (95.11, 99.58), Val Aux Acc (95.12, 99.54), Best 95.31
+current lr = 1.8944112322974836e-06
+Val Loss 0.1978, Val Acc (95.12, 99.59), Val Aux Acc (95.09, 99.58), Best 95.31
+current lr = 1.7971962957199148e-06
+Val Loss 0.1984, Val Acc (95.24, 99.59), Val Aux Acc (95.19, 99.56), Best 95.31
+current lr = 1.7049701090677352e-06
+Val Loss 0.1978, Val Acc (95.15, 99.56), Val Aux Acc (95.22, 99.56), Best 95.31
+current lr = 1.6174766661479231e-06
+Val Loss 0.1982, Val Acc (95.09, 99.58), Val Aux Acc (95.11, 99.55), Best 95.31
+current lr = 1.5344730981609618e-06
+Val Loss 0.1970, Val Acc (95.11, 99.58), Val Aux Acc (95.10, 99.56), Best 95.31
+current lr = 1.455728999533131e-06
+Val Loss 0.1994, Val Acc (95.11, 99.58), Val Aux Acc (95.21, 99.53), Best 95.31
+current lr = 1.3810257883448656e-06
+Val Loss 0.1999, Val Acc (95.14, 99.60), Val Aux Acc (95.05, 99.60), Best 95.31
+current lr = 1.310156099579818e-06
+Val Loss 0.1976, Val Acc (95.08, 99.54), Val Aux Acc (95.11, 99.49), Best 95.31
+current lr = 1.242923209510379e-06
+Val Loss 0.1978, Val Acc (95.09, 99.55), Val Aux Acc (95.04, 99.55), Best 95.31
+current lr = 1.1791404896218362e-06
+Val Loss 0.1995, Val Acc (95.06, 99.58), Val Aux Acc (95.04, 99.55), Best 95.31
+current lr = 1.1186308885593403e-06
+Val Loss 0.1992, Val Acc (95.03, 99.51), Val Aux Acc (95.00, 99.49), Best 95.31
+current lr = 1.0612264406596518e-06
+Val Loss 0.2002, Val Acc (95.11, 99.55), Val Aux Acc (95.03, 99.53), Best 95.31
+current lr = 1.0067677997034065e-06
+Val Loss 0.2003, Val Acc (95.06, 99.55), Val Aux Acc (95.00, 99.53), Best 95.31
+current lr = 9.551037965936866e-07
+Val Loss 0.1985, Val Acc (95.14, 99.59), Val Aux Acc (95.08, 99.56), Best 95.31
+current lr = 9.060910197330657e-07
+Val Loss 0.1986, Val Acc (95.12, 99.60), Val Aux Acc (95.12, 99.54), Best 95.31
+current lr = 8.59593416934318e-07
+Val Loss 0.1987, Val Acc (95.10, 99.59), Val Aux Acc (95.10, 99.56), Best 95.31
+current lr = 8.154819177597591e-07
+Val Loss 0.1997, Val Acc (95.09, 99.60), Val Aux Acc (95.08, 99.59), Best 95.31
+current lr = 7.736340752408861e-07
+Val Loss 0.1990, Val Acc (95.04, 99.60), Val Aux Acc (95.08, 99.59), Best 95.31
+current lr = 7.339337259837833e-07
+Val Loss 0.1980, Val Acc (95.08, 99.61), Val Aux Acc (94.99, 99.59), Best 95.31
+current lr = 6.962706677167976e-07
+Val Loss 0.1980, Val Acc (95.05, 99.56), Val Aux Acc (95.05, 99.56), Best 95.31
+current lr = 6.60540353385405e-07
+Val Loss 0.1994, Val Acc (95.12, 99.58), Val Aux Acc (95.11, 99.55), Best 95.31
+current lr = 6.266436009451179e-07
+Val Loss 0.1972, Val Acc (95.14, 99.59), Val Aux Acc (95.03, 99.59), Best 95.31
+current lr = 5.944863180468644e-07
+Val Loss 0.1978, Val Acc (95.15, 99.55), Val Aux Acc (95.10, 99.58), Best 95.31
+current lr = 5.639792408506062e-07
+Val Loss 0.2008, Val Acc (95.10, 99.53), Val Aux Acc (95.08, 99.51), Best 95.31
+current lr = 5.35037686242178e-07
+Val Loss 0.1986, Val Acc (95.10, 99.58), Val Aux Acc (95.09, 99.58), Best 95.31
+current lr = 5.075813167655454e-07
+Val Loss 0.1985, Val Acc (95.11, 99.59), Val Aux Acc (95.14, 99.58), Best 95.31
+current lr = 4.815339176179603e-07
+Val Loss 0.1989, Val Acc (95.21, 99.60), Val Aux Acc (95.15, 99.56), Best 95.31
+current lr = 4.568231850889909e-07
+Val Loss 0.2005, Val Acc (95.11, 99.56), Val Aux Acc (95.14, 99.55), Best 95.31
+current lr = 4.3338052585616426e-07
+Val Loss 0.1984, Val Acc (95.09, 99.56), Val Aux Acc (95.19, 99.54), Best 95.31
+current lr = 4.1114086658009187e-07
+Val Loss 0.1985, Val Acc (95.20, 99.61), Val Aux Acc (95.06, 99.59), Best 95.31
+current lr = 3.900424732705478e-07
+Val Loss 0.1969, Val Acc (95.16, 99.59), Val Aux Acc (95.21, 99.56), Best 95.31
+current lr = 3.7002677992208266e-07
+Val Loss 0.1991, Val Acc (95.14, 99.60), Val Aux Acc (95.10, 99.55), Best 95.31
+current lr = 3.510382259434931e-07
+Val Loss 0.1979, Val Acc (95.09, 99.55), Val Aux Acc (95.08, 99.53), Best 95.31
+current lr = 3.3302410192987446e-07
+Val Loss 0.1990, Val Acc (95.04, 99.60), Val Aux Acc (95.15, 99.59), Best 95.31
+current lr = 3.1593440334914373e-07
+Val Loss 0.1987, Val Acc (95.12, 99.58), Val Aux Acc (95.08, 99.54), Best 95.31
+current lr = 2.99721691736887e-07
+Val Loss 0.1982, Val Acc (95.15, 99.56), Val Aux Acc (95.19, 99.53), Best 95.31
+current lr = 2.8434096301422943e-07
+Val Loss 0.1992, Val Acc (95.19, 99.59), Val Aux Acc (95.10, 99.58), Best 95.31
+current lr = 2.697495225631983e-07
+Val Loss 0.1990, Val Acc (95.14, 99.59), Val Aux Acc (95.11, 99.58), Best 95.31
+current lr = 2.559068667128064e-07
+Val Loss 0.1987, Val Acc (95.11, 99.59), Val Aux Acc (95.11, 99.60), Best 95.31
+current lr = 2.427745703068785e-07
+Val Loss 0.2005, Val Acc (95.09, 99.58), Val Aux Acc (95.09, 99.56), Best 95.31
+current lr = 2.3031618004152582e-07
+Val Loss 0.1977, Val Acc (95.10, 99.56), Val Aux Acc (95.21, 99.58), Best 95.31

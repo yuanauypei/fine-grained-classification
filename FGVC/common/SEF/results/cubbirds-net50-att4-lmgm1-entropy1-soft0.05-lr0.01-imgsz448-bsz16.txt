@@ -1,0 +1,360 @@
+
+cubbirds: opt=sgd, lr=0.01, lmgm=1, nparts=4, entropy=1, soft=0.05, epochs=50, imgsz=448, batch_sz=16
+
+Epoch 0/50
+----------
+trainval Loss: 4.1389 Acc: 0.1987
+current lr: 0.01
+test Loss: 2.8892 Acc: 0.4218
+
+
+Epoch 1/50
+----------
+trainval Loss: 2.8477 Acc: 0.5317
+current lr: 0.01
+test Loss: 2.2994 Acc: 0.5602
+
+
+Epoch 2/50
+----------
+trainval Loss: 2.4817 Acc: 0.6717
+current lr: 0.01
+test Loss: 2.0603 Acc: 0.5982
+
+
+Epoch 3/50
+----------
+trainval Loss: 2.3008 Acc: 0.7489
+current lr: 0.01
+test Loss: 1.9374 Acc: 0.7287
+
+
+Epoch 4/50
+----------
+trainval Loss: 2.1826 Acc: 0.7986
+current lr: 0.01
+test Loss: 2.1455 Acc: 0.7094
+
+
+Epoch 5/50
+----------
+trainval Loss: 2.0923 Acc: 0.8378
+current lr: 0.01
+test Loss: 1.9215 Acc: 0.7534
+
+
+Epoch 6/50
+----------
+trainval Loss: 2.0324 Acc: 0.8610
+current lr: 0.01
+test Loss: 1.9717 Acc: 0.7687
+
+
+Epoch 7/50
+----------
+trainval Loss: 1.9609 Acc: 0.8852
+current lr: 0.01
+test Loss: 1.8217 Acc: 0.7744
+
+
+Epoch 8/50
+----------
+trainval Loss: 1.9231 Acc: 0.9021
+current lr: 0.01
+test Loss: 1.8212 Acc: 0.7865
+
+
+Epoch 9/50
+----------
+trainval Loss: 1.8757 Acc: 0.9159
+current lr: 0.01
+test Loss: 1.8688 Acc: 0.7848
+
+
+Epoch 10/50
+----------
+trainval Loss: 1.8418 Acc: 0.9251
+current lr: 0.01
+test Loss: 1.8602 Acc: 0.7917
+
+
+Epoch 11/50
+----------
+trainval Loss: 1.8089 Acc: 0.9406
+current lr: 0.01
+test Loss: 2.0394 Acc: 0.7941
+
+
+Epoch 12/50
+----------
+trainval Loss: 1.7819 Acc: 0.9468
+current lr: 0.01
+test Loss: 1.8818 Acc: 0.7810
+
+
+Epoch 13/50
+----------
+trainval Loss: 1.7769 Acc: 0.9498
+current lr: 0.01
+test Loss: 1.8368 Acc: 0.7868
+
+
+Epoch 14/50
+----------
+trainval Loss: 1.7374 Acc: 0.9575
+current lr: 0.01
+test Loss: 2.0410 Acc: 0.7894
+
+
+Epoch 15/50
+----------
+trainval Loss: 1.7277 Acc: 0.9638
+current lr: 0.01
+test Loss: 1.9506 Acc: 0.7924
+
+
+Epoch 16/50
+----------
+trainval Loss: 1.6999 Acc: 0.9690
+current lr: 0.01
+test Loss: 1.9020 Acc: 0.8046
+
+
+Epoch 17/50
+----------
+trainval Loss: 1.6996 Acc: 0.9655
+current lr: 0.01
+test Loss: 2.0451 Acc: 0.8034
+
+
+Epoch 18/50
+----------
+trainval Loss: 1.6692 Acc: 0.9770
+current lr: 0.01
+test Loss: 2.0507 Acc: 0.7989
+
+
+Epoch 19/50
+----------
+trainval Loss: 1.6583 Acc: 0.9805
+current lr: 0.01
+test Loss: 2.0287 Acc: 0.7957
+
+
+Epoch 20/50
+----------
+trainval Loss: 1.5833 Acc: 0.9900
+current lr: 0.001
+test Loss: 1.8126 Acc: 0.8500
+
+
+Epoch 21/50
+----------
+trainval Loss: 1.5523 Acc: 0.9940
+current lr: 0.001
+test Loss: 1.8331 Acc: 0.8521
+
+
+Epoch 22/50
+----------
+trainval Loss: 1.5427 Acc: 0.9958
+current lr: 0.001
+test Loss: 1.8387 Acc: 0.8545
+
+
+Epoch 23/50
+----------
+trainval Loss: 1.5370 Acc: 0.9960
+current lr: 0.001
+test Loss: 1.8046 Acc: 0.8550
+
+
+Epoch 24/50
+----------
+trainval Loss: 1.5302 Acc: 0.9977
+current lr: 0.001
+test Loss: 1.8173 Acc: 0.8516
+
+
+Epoch 25/50
+----------
+trainval Loss: 1.5250 Acc: 0.9970
+current lr: 0.001
+test Loss: 1.8326 Acc: 0.8538
+
+
+Epoch 26/50
+----------
+trainval Loss: 1.5236 Acc: 0.9978
+current lr: 0.001
+test Loss: 1.8182 Acc: 0.8567
+
+
+Epoch 27/50
+----------
+trainval Loss: 1.5224 Acc: 0.9973
+current lr: 0.001
+test Loss: 1.8391 Acc: 0.8547
+
+
+Epoch 28/50
+----------
+trainval Loss: 1.5187 Acc: 0.9965
+current lr: 0.001
+test Loss: 1.8488 Acc: 0.8576
+
+
+Epoch 29/50
+----------
+trainval Loss: 1.5175 Acc: 0.9980
+current lr: 0.001
+test Loss: 1.8455 Acc: 0.8533
+
+
+Epoch 30/50
+----------
+trainval Loss: 1.5144 Acc: 0.9980
+current lr: 0.001
+test Loss: 1.8475 Acc: 0.8519
+
+
+Epoch 31/50
+----------
+trainval Loss: 1.5121 Acc: 0.9982
+current lr: 0.001
+test Loss: 1.8398 Acc: 0.8555
+
+
+Epoch 32/50
+----------
+trainval Loss: 1.5119 Acc: 0.9980
+current lr: 0.001
+test Loss: 1.8428 Acc: 0.8531
+
+
+Epoch 33/50
+----------
+trainval Loss: 1.5123 Acc: 0.9977
+current lr: 0.001
+test Loss: 1.8468 Acc: 0.8531
+
+
+Epoch 34/50
+----------
+trainval Loss: 1.5096 Acc: 0.9993
+current lr: 0.001
+test Loss: 1.8143 Acc: 0.8564
+
+
+Epoch 35/50
+----------
+trainval Loss: 1.5065 Acc: 0.9987
+current lr: 0.001
+test Loss: 1.8517 Acc: 0.8538
+
+
+Epoch 36/50
+----------
+trainval Loss: 1.5058 Acc: 0.9988
+current lr: 0.001
+test Loss: 1.8358 Acc: 0.8535
+
+
+Epoch 37/50
+----------
+trainval Loss: 1.5039 Acc: 0.9990
+current lr: 0.001
+test Loss: 1.8204 Acc: 0.8528
+
+
+Epoch 38/50
+----------
+trainval Loss: 1.5057 Acc: 0.9982
+current lr: 0.001
+test Loss: 1.8535 Acc: 0.8540
+
+
+Epoch 39/50
+----------
+trainval Loss: 1.5009 Acc: 0.9990
+current lr: 0.001
+test Loss: 1.8626 Acc: 0.8540
+
+
+Epoch 40/50
+----------
+trainval Loss: 1.5022 Acc: 0.9995
+current lr: 0.0001
+test Loss: 1.8658 Acc: 0.8512
+
+
+Epoch 41/50
+----------
+trainval Loss: 1.4963 Acc: 0.9995
+current lr: 0.0001
+test Loss: 1.8496 Acc: 0.8530
+
+
+Epoch 42/50
+----------
+trainval Loss: 1.4946 Acc: 0.9993
+current lr: 0.0001
+test Loss: 1.8487 Acc: 0.8531
+
+
+Epoch 43/50
+----------
+trainval Loss: 1.4996 Acc: 0.9993
+current lr: 0.0001
+test Loss: 1.8623 Acc: 0.8526
+
+
+Epoch 44/50
+----------
+trainval Loss: 1.4975 Acc: 0.9993
+current lr: 0.0001
+test Loss: 1.8592 Acc: 0.8547
+
+
+Epoch 45/50
+----------
+trainval Loss: 1.5010 Acc: 0.9993
+current lr: 0.0001
+test Loss: 1.8404 Acc: 0.8536
+
+
+Epoch 46/50
+----------
+trainval Loss: 1.4990 Acc: 0.9992
+current lr: 0.0001
+test Loss: 1.8542 Acc: 0.8517
+
+
+Epoch 47/50
+----------
+trainval Loss: 1.4961 Acc: 0.9992
+current lr: 0.0001
+test Loss: 1.8647 Acc: 0.8550
+
+
+Epoch 48/50
+----------
+trainval Loss: 1.4925 Acc: 0.9997
+current lr: 0.0001
+test Loss: 1.8688 Acc: 0.8545
+
+
+Epoch 49/50
+----------
+trainval Loss: 1.4978 Acc: 0.9995
+current lr: 0.0001
+test Loss: 1.8396 Acc: 0.8552
+
+
+Training complete in 175m 55s
+Best test Acc: 0.857611
+
+Best epoch: 28
+
+cubbirds: opt=sgd, lr=0.01, lmgm=1, nparts=4, entropy=1, soft=0.05, epochs=50, imgsz=448, batch_sz=16
+

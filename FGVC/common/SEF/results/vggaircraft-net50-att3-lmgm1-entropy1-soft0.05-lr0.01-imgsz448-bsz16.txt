@@ -1,0 +1,5 @@
+
+vggaircraft: opt=sgd, lr=0.01, lmgm=1, nparts=3, entropy=1, soft=0.05, epochs=50, imgsz=448, batch_sz=16
+
+Epoch 0/50
+----------
